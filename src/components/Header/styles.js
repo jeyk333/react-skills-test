@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    background: theme.palette.primary.light,
   },
   toolBar: {
     display: "flex",

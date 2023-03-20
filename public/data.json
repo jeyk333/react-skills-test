@@ -1,0 +1,1305 @@
+
+{
+  "apiVersion":"2.17.0",
+  "data":{
+     "items":[
+        {
+           "traitId":1,
+           "traitName":"childrenIdValue",
+           "description":"Children",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA tester for mp",
+              "Test Trigger",
+              "Test Trigger1123",
+              "USA Always Discreet"
+           ],
+           "ecosystems":[
+              "segment-traitChildrenIdValue",
+              "lytics-traitChildrenIdValue",
+              "dataLake-traitChildrenIdValue",
+              "mapp-traitChildrenIdValue",
+              "bigQuery-trait_Children_Id_Value",
+              "janrain-",
+              "1CP-Children",
+              "braze-traitchildrenIdValue",
+              "CPC-traitchildrenIdValue",
+              "CDP2.0-children",
+              "retentionScience-traitchildrenIdValue"
+           ]
+        },
+        {
+           "traitId":2,
+           "traitName":"referral",
+           "description":"Referral",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA PG Professional",
+              "JPN GroomingPGShop",
+              "USA Venus",
+              "USA Haircode"
+           ],
+           "ecosystems":[
+              "segment-traitReferralIdValue",
+              "lytics-trait_referral_id_value",
+              "dataLake-traitReferralIdValue",
+              "mapp-traitReferralIdValue",
+              "bigQuery-trait_Referral_Id_Value",
+              "janrain-",
+              "1CP-Referral",
+              "braze-traitreferralIdValue",
+              "CPC-traitreferralIdValue",
+              "CDP2.0-referral",
+              "retentionScience-traitreferralIdValue"
+           ]
+        },
+        {
+           "traitId":18,
+           "traitName":"traitUseBrandGroomingIdValue",
+           "description":"Use - brand grooming",
+           "personalData":false,
+           "dataType":"String",
+           "marketingPrograms":[
+              "USA tester for mp",
+              "Test Trigger",
+              "Test Trigger1123",
+              "JPN GroomingPGShop"
+           ],
+           "ecosystems":[
+              "segment-traitUseBrandGroomingIdValue",
+              "lytics-trait_Use_Brand_Grooming_id_value",
+              "dataLake-traitUseBrandGroomingIdValue",
+              "mapp-traitUseBrandGroomingIdValue",
+              "bigQuery-trait_Use_Brand_Grooming_Id_Value",
+              "janrain-traitUseBrandGrooming.traitValue",
+              "1CP-Use - brand grooming",
+              "braze-traitUseBrandGroomingIdValue",
+              "CPC-traitUseBrandGroomingIdValue",
+              "CDP2.0-UseBrandGrooming",
+              "retentionScience-traitUseBrandGroomingIdValue"
+           ]
+        },
+        {
+           "traitId":22,
+           "traitName":"traitUseBrandFemPadIdValue",
+           "description":"Use - brand fem pad",
+           "personalData":false,
+           "dataType":"String",
+           "marketingPrograms":[
+              "Test Trigger",
+              "Test Trigger1123",
+              "JPN GroomingPGShop",
+              "ROU Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitUseBrandFemPadIdValue",
+              "lytics-trait_Use_Brand_Fem_Pad_id_value",
+              "dataLake-traitUseBrandFemPadIdValue",
+              "mapp-traitUseBrandFemPadIdValue",
+              "bigQuery-trait_Use_Brand_Fem_Pad_Id_Value",
+              "janrain-traitUseBrandFemPad.traitValue",
+              "1CP-Use - brand fem pad",
+              "braze-traitUseBrandFemPadIdValue",
+              "CPC-traitUseBrandFemPadIdValue",
+              "CDP2.0-UseBrandFemPad",
+              "retentionScience-traitUseBrandFemPadIdValue"
+           ]
+        },
+        {
+           "traitId":24,
+           "traitName":"concernsHair",
+           "description":"Concerns - Hair",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "LAT Rewards",
+              "TUR Banabak",
+              "ARB Golden Household",
+              "DEU Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitConcernsHairIdValue",
+              "lytics-trait_concerns_hair_id_value",
+              "dataLake-traitConcernsHairIdValue",
+              "mapp-traitConcernsHairIdValue",
+              "bigQuery-trait_Concerns_Hair_Id_Value",
+              "janrain-traitConcernsHair.traitValue",
+              "1CP-Concerns - Hair",
+              "braze-traitconcernsHairIdValue",
+              "CPC-traitconcernsHairIdValue",
+              "CDP2.0-concernsHair",
+              "retentionScience-traitconcernsHairIdValue"
+           ]
+        },
+        {
+           "traitId":26,
+           "traitName":"UseAntiDandruffShampoo",
+           "description":"traitUseAntiDandruffShampooIdValue",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "IND Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitUseAntiDandruffShampooIdValue",
+              "lytics-trait_Use_Anti_Dandruff_Shampoo_id_value",
+              "dataLake-traitUseAntiDandruffShampooIdValue",
+              "mapp-trtUsAntDndrffShmpVal",
+              "bigQuery-trait_use_anti_dandruff_shampoo_id_value",
+              "janrain-traitUseAntiDandruffShampoo.traitValue",
+              "1CP-UseAntiDandruffShampoo",
+              "braze-traitUseAntiDandruffShampooIdValue",
+              "CPC-traitUseAntiDandruffShampooIdValue",
+              "CDP2.0-UseAntiDandruffShampoo",
+              "retentionScience-traitUseAntiDandruffShampooIdValue"
+           ]
+        },
+        {
+           "traitId":28,
+           "traitName":"selfDescriptionSkin",
+           "description":"Self-description - skin type",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "ITA BeautyCode",
+              "DEU BeautyCode",
+              "ESP BeautyCode",
+              "FRA Jolly"
+           ],
+           "ecosystems":[
+              "segment-traitSelfDescriptionSkinTypeIdValue",
+              "segment-traitSelfDescriptionSkinTypeLastUpdate",
+              "lytics-",
+              "lytics-",
+              "dataLake-traitSelfDescriptionSkinTypeIdValue",
+              "dataLake-traitSelfDescriptionSkinTypeLastUpdate",
+              "mapp-traitSelfDescriptionSkinTypeIdValue",
+              "mapp-traitSelfDescriptionSkinTypeLastUpdate",
+              "bigQuery-trait_Self_Description_Skin_Type_Id_Value",
+              "bigQuery-trait_Self_Description_Skin_Type_Last_Update",
+              "janrain-traitSelfDescriptionSkinType.traitValue",
+              "janrain-traitSelfDescriptionSkinType.traitLastUpdated",
+              "1CP-Self-description - skin type",
+              "1CP-Self-description - skin type",
+              "braze-traitselfDescriptionSkinIdValue",
+              "CPC-traitselfDescriptionSkinIdValue",
+              "CDP2.0-selfDescriptionSkin",
+              "retentionScience-traitselfDescriptionSkinIdValue"
+           ]
+        },
+        {
+           "traitId":31,
+           "traitName":"UseHairCareProduct",
+           "description":"traitUseHairCareProductIdValue",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "DEU Golden Household",
+              "GBR Golden Household",
+              "PHL Golden Household",
+              "Head and Shoulders India"
+           ],
+           "ecosystems":[
+              "segment-traitUseHairCareProductIdValue",
+              "lytics-trait_Use_Hair_Care_Product_id_value",
+              "dataLake-traitUseHairCareProductIdValue",
+              "mapp-trtUseHairCareProdctIdVal",
+              "bigQuery-trait_use_hair_care_product_id_value",
+              "janrain-traitUseHairCareProduct.traitValue",
+              "1CP-UseHairCareProduct",
+              "braze-traitUseHairCareProductIdValue",
+              "CPC-traitUseHairCareProductIdValue",
+              "CDP2.0-UseHairCareProduct",
+              "retentionScience-traitUseHairCareProductIdValue"
+           ]
+        },
+        {
+           "traitId":40,
+           "traitName":"traitBuyReasonShampooIdValue",
+           "description":"Buy reason - shampoo",
+           "personalData":false,
+           "dataType":"String",
+           "marketingPrograms":[
+              "BGR Corporate Program",
+              "ROU Corporate Program",
+              "TUR Golden Household",
+              "USA Everyday Solutions"
+           ],
+           "ecosystems":[
+              "segment-traitBuyReasonShampooIdValue",
+              "lytics-trait_Buy_Reason_Shampoo_id_value",
+              "dataLake-traitBuyReasonShampooIdValue",
+              "mapp-traitBuyReasonShampooIdValue",
+              "bigQuery-trait_Buy_Reason_Shampoo_Id_Value",
+              "janrain-traitBuyReasonShampoo.traitValue",
+              "1CP-Buy reason - shampoo",
+              "braze-traitBuyReasonShampooIdValue",
+              "CPC-traitBuyReasonShampooIdValue",
+              "CDP2.0-BuyReasonShampoo",
+              "retentionScience-traitBuyReasonShampooIdValue"
+           ]
+        },
+        {
+           "traitId":41,
+           "traitName":"behaviorOralCare",
+           "description":"Behavior - oral care",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "LAT Rewards",
+              "TUR Banabak",
+              "BRA Corporate Program",
+              "LAT Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitBehaviorOralCareIdValue",
+              "lytics-trait_Behavior_oRal_care_id_value",
+              "dataLake-traitBehaviorOralCareIdValue",
+              "mapp-trtBehaviorOralCareIdVal",
+              "bigQuery-trait_Behavior_Oral_Care_Id_Value",
+              "janrain-traitBehaviorOralCare.traitValue",
+              "1CP-Behavior - oral care",
+              "braze-traitbehaviorOralCareIdValue",
+              "CPC-traitbehaviorOralCareIdValue",
+              "CDP2.0-behaviorOralCare",
+              "retentionScience-traitbehaviorOralCareIdValue"
+           ]
+        },
+        {
+           "traitId":46,
+           "traitName":"traitUseCottonIdValue",
+           "description":"Use - Cotton",
+           "personalData":false,
+           "dataType":"String",
+           "marketingPrograms":[
+              "ROU Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitUseCottonIdValue",
+              "lytics-trait_Use_Cotton_id_value",
+              "dataLake-traitUseCottonIdValue",
+              "mapp-traitUseCottonIdValue",
+              "bigQuery-trait_Use_Cotton_Id_Value",
+              "janrain-traitUseCotton.traitValue",
+              "1CP-Use - Cotton",
+              "braze-traitUseCottonIdValue",
+              "CPC-traitUseCottonIdValue",
+              "CDP2.0-UseCotton",
+              "retentionScience-traitUseCottonIdValue"
+           ]
+        },
+        {
+           "traitId":51,
+           "traitName":"concernsSkin",
+           "description":"Concerns - Skin",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "ITA BeautyCode",
+              "GBR BeautyCode",
+              "DEU BeautyCode",
+              "ESP BeautyCode"
+           ],
+           "ecosystems":[
+              "segment-traitConcernsSkinIdValue",
+              "segment-traitConcernsSkinLastUpdate",
+              "lytics-",
+              "lytics-",
+              "dataLake-traitConcernsSkinIdValue",
+              "dataLake-traitConcernsSkinLastUpdate",
+              "mapp-traitConcernsSkinIdValue",
+              "mapp-traitConcernsSkinLastUpdate",
+              "bigQuery-trait_Concerns_Skin_Id_Value",
+              "bigQuery-trait_Concerns_Skin_Last_Update",
+              "janrain-",
+              "janrain-",
+              "1CP-Concerns - Skin",
+              "1CP-Concerns - Skin",
+              "braze-traitconcernsSkinIdValue",
+              "CPC-traitconcernsSkinIdValue",
+              "CDP2.0-concernsSkin",
+              "retentionScience-traitconcernsSkinIdValue"
+           ]
+        },
+        {
+           "traitId":53,
+           "traitName":"preferredStoreIdValue",
+           "description":"Preferred store",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "LAT Rewards",
+              "ESP OralB",
+              "ARB Golden Household",
+              "ESP Ausonia"
+           ],
+           "ecosystems":[
+              "segment-traitPreferredStoreIdValue",
+              "lytics-trait_preferred_store_id_value",
+              "dataLake-traitPreferredStoreIdValue",
+              "mapp-traitPreferredStoreIdValue",
+              "bigQuery-trait_Preferred_Store_Id_Value",
+              "janrain-traitPreferredStore.traitValue",
+              "1CP-Preferred store",
+              "braze-traitpreferredStoreIdValue",
+              "CPC-traitpreferredStoreIdValue",
+              "CDP2.0-preferredStore",
+              "retentionScience-traitpreferredStoreIdValue"
+           ]
+        },
+        {
+           "traitId":58,
+           "traitName":"householdSize",
+           "description":"Household Size",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "DEU Femibion",
+              "USA Venus",
+              "PAK Corporate Program",
+              "ARB Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitHouseholdSizeIdValue",
+              "lytics-",
+              "dataLake-traitHouseholdSizeValue",
+              "mapp-traitHouseholdSizeIdValue",
+              "bigQuery-trait_Household_Size_Id_Value",
+              "janrain-",
+              "1CP-Household Size",
+              "braze-traithouseholdSizeIdValue",
+              "CPC-traithouseholdSizeIdValue",
+              "CDP2.0-householdSize",
+              "retentionScience-traithouseholdSizeIdValue"
+           ]
+        },
+        {
+           "traitId":63,
+           "traitName":"skinConcernAcneIdValue",
+           "description":"skin concern - acne",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Everyday Solutions",
+              "IND Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernAcneIdValue",
+              "lytics-trait_skin_concern_acne_id_value",
+              "dataLake-traitSkinConcernAcneIdValue",
+              "mapp-traitSkinConcernAcneIdValue",
+              "bigQuery-trait_Skin_Concern_Acne_Id_Value",
+              "janrain-traitSkinConcernAcne.traitValue",
+              "1CP-skin concern - acne",
+              "braze-traitskinConcernAcneIdValue",
+              "CPC-traitskinConcernAcneIdValue",
+              "CDP2.0-skinConcernAcne",
+              "retentionScience-traitskinConcernAcneIdValue"
+           ]
+        },
+        {
+           "traitId":64,
+           "traitName":"skinConcernDiscolorationIdValue",
+           "description":"skin concern - discoloration",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "JPN Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernDiscolorationIdValue",
+              "lytics-trait_skin_concern_discoloration_id_value",
+              "dataLake-traitSkinConcernDiscolorationIdValue",
+              "mapp-traitSkinConcernDiscolorationIdValue",
+              "bigQuery-trait_Skin_Concern_Discoloration_Id_Value",
+              "janrain-traitSkinConcernDiscoloration.traitValue",
+              "1CP-skin concern - discoloration",
+              "braze-traitskinConcernDiscolorationIdValue",
+              "CPC-traitskinConcernDiscolorationIdValue",
+              "CDP2.0-skinConcernDiscoloration",
+              "retentionScience-traitskinConcernDiscolorationIdValue"
+           ]
+        },
+        {
+           "traitId":65,
+           "traitName":"skinConcernDrynessIdValue",
+           "description":"skin concern - dryness",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "KOR Olay"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernDrynessIdValue",
+              "lytics-trait_skin_concern_dryness_id_value",
+              "dataLake-traitSkinConcernDrynessIdValue",
+              "mapp-traitSkinConcernDrynessIdValue",
+              "bigQuery-trait_Skin_Concern_Dryness_Id_Value",
+              "janrain-traitSkinConcernDryness.traitValue",
+              "1CP-skin concern - dryness",
+              "braze-traitskinConcernDrynessIdValue",
+              "CPC-traitskinConcernDrynessIdValue",
+              "CDP2.0-skinConcernDryness",
+              "retentionScience-traitskinConcernDrynessIdValue"
+           ]
+        },
+        {
+           "traitId":66,
+           "traitName":"skinConcernGeneralCareIdValue",
+           "description":"skin concern - general care",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "JPN Golden Household",
+              "IND Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernGeneralCareIdValue",
+              "lytics-trait_skin_concern_general_care_id_value",
+              "dataLake-traitSkinConcernGeneralCareIdValue",
+              "mapp-traitSkinConcernGeneralCareIdValue",
+              "bigQuery-trait_Skin_Concern_General_Care_Id_Value",
+              "janrain-traitSkinConcernGeneralCare.traitValue",
+              "1CP-skin concern - general care",
+              "braze-traitskinConcernGeneralCareIdValue",
+              "CPC-traitskinConcernGeneralCareIdValue",
+              "CDP2.0-skinConcernGeneralCare",
+              "retentionScience-traitskinConcernGeneralCareIdValue"
+           ]
+        },
+        {
+           "traitId":67,
+           "traitName":"skinConcernLinesIdValue",
+           "description":"skin concern - lines",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "ARB Golden Household",
+              "KOR Olay",
+              "JPN Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernLinesIdValue",
+              "lytics-trait_skin_concern_lines_id_value",
+              "dataLake-traitSkinConcernLinesIdValue",
+              "mapp-traitSkinConcernLinesIdValue",
+              "bigQuery-trait_Skin_Concern_Lines_Id_Value",
+              "janrain-traitSkinConcernLines.traitValue",
+              "1CP-skin concern - lines",
+              "braze-traitskinConcernLinesIdValue",
+              "CPC-traitskinConcernLinesIdValue",
+              "CDP2.0-skinConcernLines",
+              "retentionScience-traitskinConcernLinesIdValue"
+           ]
+        },
+        {
+           "traitId":68,
+           "traitName":"skinConcernBlotchesIdValue",
+           "description":"skin concern - blotches",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA BeingGirl",
+              "IND Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernBlotchesIdValue",
+              "lytics-trait_skin_concern_blotches_id_value",
+              "dataLake-traitSkinConcernBlotchesIdValue",
+              "mapp-traitSkinConcernBlotchesIdValue",
+              "bigQuery-trait_Skin_Concern_Blotches_Id_Value",
+              "janrain-traitSkinConcernBlotches.traitValue",
+              "1CP-skin concern - blotches",
+              "braze-traitskinConcernBlotchesIdValue",
+              "CPC-traitskinConcernBlotchesIdValue",
+              "CDP2.0-skinConcernBlotches",
+              "retentionScience-traitskinConcernBlotchesIdValue"
+           ]
+        },
+        {
+           "traitId":69,
+           "traitName":"skinConcernDarkCircleIdValue",
+           "description":"skin concern - dark circle",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":null,
+           "ecosystems":[
+              "segment-traitSkinConcernDarkCircleIdValue",
+              "lytics-trait_skin_concern_dark_circle_id_value",
+              "dataLake-traitSkinConcernDarkCircleIdValue",
+              "mapp-traitSkinConcernDarkCircleIdValue",
+              "bigQuery-trait_Skin_Concern_Dark_Circle_Id_Value",
+              "janrain-traitSkinConcernDarkCircle.traitValue",
+              "1CP-skin concern - dark circle",
+              "braze-traitskinConcernDarkCircleIdValue",
+              "CPC-traitskinConcernDarkCircleIdValue",
+              "CDP2.0-skinConcernDarkCircle",
+              "retentionScience-traitskinConcernDarkCircleIdValue"
+           ]
+        },
+        {
+           "traitId":70,
+           "traitName":"skinConcernDullnessIdValue",
+           "description":"skin concern - dullness",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA tester for mp",
+              "PHL Pampers",
+              "PHL Corporate Program",
+              "PHL Being Girl"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernDullnessIdValue",
+              "lytics-trait_skin_concern_dullness_id_value",
+              "dataLake-traitSkinConcernDullnessIdValue",
+              "mapp-traitSkinConcernDullnessIdValue",
+              "bigQuery-trait_Skin_Concern_Dullness_Id_Value",
+              "janrain-traitSkinConcernDullness.traitValue",
+              "1CP-skin concern - dullness",
+              "braze-traitskinConcernDullnessIdValue",
+              "CPC-traitskinConcernDullnessIdValue",
+              "CDP2.0-skinConcernDullness",
+              "retentionScience-traitskinConcernDullnessIdValue"
+           ]
+        },
+        {
+           "traitId":71,
+           "traitName":"skinConcernRednessIdValue",
+           "description":"skin concern - redness",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "IND Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernRednessIdValue",
+              "lytics-trait_skin_concern_redness_id_value",
+              "dataLake-traitSkinConcernRednessIdValue",
+              "mapp-traitSkinConcernRednessIdValue",
+              "bigQuery-trait_Skin_Concern_Redness_Id_Value",
+              "janrain-traitSkinConcernRedness.traitValue",
+              "1CP-skin concern - redness",
+              "braze-traitskinConcernRednessIdValue",
+              "CPC-traitskinConcernRednessIdValue",
+              "CDP2.0-skinConcernRedness",
+              "retentionScience-traitskinConcernRednessIdValue"
+           ]
+        },
+        {
+           "traitId":72,
+           "traitName":"skinConcernSpotsIdValue",
+           "description":"skin concern - spots",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":null,
+           "ecosystems":[
+              "segment-traitSkinConcernSpotsIdValue",
+              "lytics-trait_skin_concern_spots_id_value",
+              "dataLake-traitSkinConcernSpotsIdValue",
+              "mapp-traitSkinConcernSpotsIdValue",
+              "bigQuery-trait_Skin_Concern_Spots_Id_Value",
+              "janrain-traitSkinConcernSpots.traitValue",
+              "1CP-skin concern - spots",
+              "braze-traitskinConcernSpotsIdValue",
+              "CPC-traitskinConcernSpotsIdValue",
+              "CDP2.0-skinConcernSpots",
+              "retentionScience-traitskinConcernSpotsIdValue"
+           ]
+        },
+        {
+           "traitId":73,
+           "traitName":"skinConcernBrowlinesIdValue",
+           "description":"Skin concern - browlines",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "IND Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSkinConcernBrowlinesIdValue",
+              "lytics-trait_skin_concern_browlines_id_value",
+              "dataLake-traitSkinConcernBrowlinesIdValue",
+              "mapp-traitSkinConcernBrowlinesIdValue",
+              "bigQuery-trait_Skin_Concern_Browlines_Id_Value",
+              "janrain-traitSkinConcernBrowlines.traitValue",
+              "1CP-Skin concern - browlines",
+              "braze-traitskinConcernBrowlinesIdValue",
+              "CPC-traitskinConcernBrowlinesIdValue",
+              "CDP2.0-skinConcernBrowlines",
+              "retentionScience-traitskinConcernBrowlinesIdValue"
+           ]
+        },
+        {
+           "traitId":74,
+           "traitName":"skinConcernCrowsfeetIdValue",
+           "description":"Skin concern - crowsfeet",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":null,
+           "ecosystems":[
+              "segment-traitSkinConcernCrowsfeetIdValue",
+              "lytics-trait_skin_concern_crowsfeet_id_value",
+              "dataLake-traitSkinConcernCrowsfeetIdValue",
+              "mapp-traitSkinConcernCrowsfeetIdValue",
+              "bigQuery-trait_Skin_Concern_Crowsfeet_Id_Value",
+              "janrain-traitSkinConcernCrowsfeet.traitValue",
+              "1CP-Skin concern - crowsfeet",
+              "braze-traitskinConcernCrowsfeetIdValue",
+              "CPC-traitskinConcernCrowsfeetIdValue",
+              "CDP2.0-skinConcernCrowsfeet",
+              "retentionScience-traitskinConcernCrowsfeetIdValue"
+           ]
+        },
+        {
+           "traitId":75,
+           "traitName":"skinConcernLiplinesIdValue",
+           "description":"Skin concern - liplines",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":null,
+           "ecosystems":[
+              "segment-traitSkinConcernLiplinesIdValue",
+              "lytics-trait_skin_concern_liplines_id_value",
+              "dataLake-traitSkinConcernLiplinesIdValue",
+              "mapp-traitSkinConcernLiplinesIdValue",
+              "bigQuery-trait_Skin_Concern_Liplines_Id_Value",
+              "janrain-traitSkinConcernLiplines.traitValue",
+              "1CP-Skin concern - liplines",
+              "braze-traitskinConcernLiplinesIdValue",
+              "CPC-traitskinConcernLiplinesIdValue",
+              "CDP2.0-skinConcernLiplines",
+              "retentionScience-traitskinConcernLiplinesIdValue"
+           ]
+        },
+        {
+           "traitId":76,
+           "traitName":"skinConcernSmilelinesIdValue",
+           "description":"Skin concern - smilelines",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":null,
+           "ecosystems":[
+              "segment-traitSkinConcernSmilelinesIdValue",
+              "lytics-trait_skin_concern_smilelines_id_value",
+              "dataLake-traitSkinConcernSmilelinesIdValue",
+              "mapp-traitSkinConcernSmilelinesIdValue",
+              "bigQuery-trait_Skin_Concern_Smilelines_Id_Value",
+              "janrain-traitSkinConcernSmilelines.traitValue",
+              "1CP-Skin concern - smilelines",
+              "braze-traitskinConcernSmilelinesIdValue",
+              "CPC-traitskinConcernSmilelinesIdValue",
+              "CDP2.0-skinConcernSmilelines",
+              "retentionScience-traitskinConcernSmilelinesIdValue"
+           ]
+        },
+        {
+           "traitId":77,
+           "traitName":"myWrinklesAre",
+           "description":"Skin concern - wrinkles",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "DEU Femibion",
+              "USA Venus",
+              "PAK Corporate Program",
+              "ARB Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitMyWrinklesAreIdValue",
+              "segment-traitMyWrinklesAreLastUpdate",
+              "segment-scoreIndBrandRewardMeReactivationAmt",
+              "segment-scoreIndBrandRewardMeReactivationValue",
+              "segment-scoreIndBrandPampersReactivationAmt",
+              "segment-scoreIndBrandPampersReactivationValue",
+              "lytics-",
+              "lytics-",
+              "lytics-",
+              "lytics-",
+              "lytics-",
+              "lytics-",
+              "dataLake-traitMyWrinklesAreIdValue",
+              "dataLake-traitMyWrinklesAreLastUpdate",
+              "dataLake-scoreIndBrandRewardMeReactivationAmt",
+              "dataLake-scoreIndBrandRewardMeReactivationIdValue",
+              "dataLake-scoreIndBrandPampersReactivationAmt",
+              "dataLake-scoreIndBrandPampersReactivationIdValue",
+              "mapp-traitMyWrinklesAreIdValue",
+              "mapp-traitMyWrinklesAreLastUpdate",
+              "mapp-scoreIndBrandRewardMeReactivationAmt",
+              "mapp-scoreIndBrandRewardMeReactivationValue",
+              "mapp-scoreIndBrandPampersReactivationAmt",
+              "mapp-scoreIndBrandPampersReactivationValue",
+              "bigQuery-trait_My_Wrinkles_Are_Id_Value",
+              "bigQuery-trait_My_Wrinkles_Are_Last_Update",
+              "bigQuery-score_Ind_Brand_Reward_Me_Reactivation_Amt",
+              "bigQuery-score_Ind_Brand_Reward_Me_Reactivation_Value",
+              "bigQuery-score_Ind_Brand_Pampers_Rea"
+           ]
+        },
+        {
+           "traitId":80,
+           "traitName":"UseBrandHairColor",
+           "description":"Use - brand hair color",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Venus",
+              "PAK Corporate Program",
+              "ESP Golden Household",
+              "PHL Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitUseBrandHairColorIdValue",
+              "lytics-",
+              "dataLake-traitUseBrandHairColorIdValue",
+              "mapp-traitUseBrandHairColorIdValue",
+              "bigQuery-trait_Use_Brand_Hair_Color_Id_Value",
+              "janrain-",
+              "1CP-traitUseBrandHairColorIdValue",
+              "braze-traitUseBrandHairColorIdValue",
+              "CPC-traitUseBrandHairColorIdValue",
+              "CDP2.0-UseBrandHairColor",
+              "retentionScience-traitUseBrandHairColorIdValue"
+           ]
+        },
+        {
+           "traitId":83,
+           "traitName":"hairColor",
+           "description":"What is the consumer's hair color (self description)",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "THA Hair Care",
+              "GBR Braun DTC",
+              "USA Haircode",
+              "ARB Pampers"
+           ],
+           "ecosystems":[
+              "segment-traitHairColorIdValue",
+              "segment-traitHairColorLastUpdate",
+              "lytics-hair_color",
+              "lytics-hair_color_last_update",
+              "dataLake-traitHairColor",
+              "dataLake-traitHairColorLastUpdate",
+              "mapp-traitHairColorIdValue",
+              "mapp-traitHairColorLastUpdate",
+              "bigQuery-trait_Hair_Color_Id_Value",
+              "bigQuery-trait_Hair_Color_Last_Update",
+              "janrain-traitHairColor.traitValue",
+              "janrain-traitHairColor.traitLastUpdate",
+              "1CP-Self-description - hair color",
+              "1CP-Self-description - hair color",
+              "braze-traithairColorIdValue",
+              "CPC-traithairColorIdValue",
+              "CDP2.0-hairColor",
+              "retentionScience-traithairColorIdValue"
+           ]
+        },
+        {
+           "traitId":90,
+           "traitName":"selfDescriptionSkinFeelIdValue",
+           "description":"Self-description - skin feel",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Olay",
+              "IND Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitSelfDescriptionSkinFeelIdValue",
+              "lytics-trait_self_description_skin_feel_id_value",
+              "dataLake-traitSelfDescriptionSkinFeelIdValue",
+              "mapp-traitSelfDescriptionSkinFeelIdValue",
+              "bigQuery-trait_Self_Description_Skin_Feel_Id_Value",
+              "janrain-traitSelfDescriptionSkinFeel.traitValue",
+              "1CP-Self-description - skin feel",
+              "braze-traitselfDescriptionSkinFeelIdValue",
+              "CPC-traitselfDescriptionSkinFeelIdValue",
+              "CDP2.0-selfDescriptionSkinFeel",
+              "retentionScience-traitselfDescriptionSkinFeelIdValue"
+           ]
+        },
+        {
+           "traitId":94,
+           "traitName":"useRazor",
+           "description":"Use - razor type",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "GBR Braun DTC",
+              "USA Venus",
+              "PAK Corporate Program",
+              "FRA Gillette"
+           ],
+           "ecosystems":[
+              "segment-traitUseRazorTypeIdValue",
+              "segment-traitUseRazorTypeLastUpdate",
+              "lytics-",
+              "lytics-",
+              "dataLake-traitUseRazorTypeIdValue",
+              "dataLake-traitUseRazorTypeLastUpdate",
+              "mapp-traitUseRazorTypeIdValue",
+              "mapp-traitUseRazorTypeLastUpdate",
+              "bigQuery-trait_Use_Razor_Type_Id_Value",
+              "bigQuery-trait_Use_Razor_Type_Last_Update",
+              "janrain-traitUseRazorType.traitValue",
+              "janrain-traitUseRazorType.traitLastUpdated",
+              "1CP-Use - razor type",
+              "1CP-Use - razor type",
+              "braze-traituseRazorIdValue",
+              "CPC-traituseRazorIdValue",
+              "CDP2.0-useRazor",
+              "retentionScience-traituseRazorIdValue"
+           ]
+        },
+        {
+           "traitId":98,
+           "traitName":"femcareProductUsed",
+           "description":"Use - femcare product",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "DEU Femibion",
+              "USA Venus",
+              "SWE OralB",
+              "PAK Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitFemcareProductUsedIdValue",
+              "segment-traitFemcareProductUsedLastUpdate",
+              "lytics-",
+              "lytics-",
+              "dataLake-traitFemcareProductUsedIdValue",
+              "dataLake-traitFemcareProductUsedLastUpdate",
+              "mapp-trtFemcareProdUsedIdVal",
+              "mapp-traitFemcareProductUsedLastUpdate",
+              "bigQuery-trait_Femcare_Product_Used_Id_Value",
+              "bigQuery-trait_Femcare_Product_Used_Last_Update",
+              "janrain-traitFemcareProductUsed.traitValue",
+              "janrain-traitFemcareProductUsed.traitLastUpdate",
+              "1CP-Use - femcare product",
+              "1CP-Use - femcare product",
+              "braze-traitfemcareProductUsedIdValue",
+              "CPC-traitfemcareProductUsedIdValue",
+              "CDP2.0-femcareProductUsed",
+              "retentionScience-traitfemcareProductUsedIdValue"
+           ]
+        },
+        {
+           "traitId":99,
+           "traitName":"UseBrandTampon",
+           "description":"Use - brand tampon",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Venus",
+              "PAK Corporate Program",
+              "PRT Ausonia",
+              "ESP Ausonia"
+           ],
+           "ecosystems":[
+              "segment-traitUseBrandTamponIdValue",
+              "lytics-",
+              "dataLake-traitUseBrandTamponIdValue",
+              "mapp-traitUseBrandTamponIdValue",
+              "bigQuery-trait_Use_Brand_Tampon_Id_Value",
+              "janrain-",
+              "1CP-Use - brand tampon",
+              "braze-traitUseBrandTamponIdValue",
+              "CPC-traitUseBrandTamponIdValue",
+              "CDP2.0-UseBrandTampon",
+              "retentionScience-traitUseBrandTamponIdValue"
+           ]
+        },
+        {
+           "traitId":100,
+           "traitName":"dependent1TraitDiaperBrand",
+           "description":"Dependent 1s diaper brand",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Venus",
+              "GBR Dentalcare",
+              "PAK Corporate Program",
+              "DEU Golden Household"
+           ],
+           "ecosystems":[
+              "segment-dependent1TraitDiaperBrandIdValue",
+              "lytics-",
+              "dataLake-dependent1TraitDiaperBrandLIdValue",
+              "mapp-dep1TraitDiaperBrdIdVal",
+              "bigQuery-dependent1Trait_Diaper_Brand_Id_Value",
+              "janrain-dependents.traitDiaperBrand.traitValue",
+              "1CP-Use - diapers/pant brand",
+              "braze-traitdependent1TraitDiaperBrandIdValue",
+              "CPC-traitdependent1TraitDiaperBrandIdValue",
+              "CDP2.0-dependent1TraitDiaperBrand",
+              "retentionScience-traitdependent1TraitDiaperBrandIdValue"
+           ]
+        },
+        {
+           "traitId":101,
+           "traitName":"maritalStatus",
+           "description":"marriage",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "LAT Rewards",
+              "USA Venus",
+              "PAK Corporate Program",
+              "ARB Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitMaritalStatusIdValue",
+              "lytics-trait_marital_status_id_value",
+              "dataLake-traitMaritalStatusIdValue",
+              "mapp-traitMaritalStatusIdValue",
+              "bigQuery-trait_Marital_Status_Id_Value",
+              "janrain-",
+              "1CP-Marital status",
+              "braze-traitmaritalStatusIdValue",
+              "CPC-traitmaritalStatusIdValue",
+              "CDP2.0-maritalStatus",
+              "retentionScience-traitmaritalStatusIdValue"
+           ]
+        },
+        {
+           "traitId":105,
+           "traitName":"skinCareBudget",
+           "description":"Skin Care Budget",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "PHL Golden Household",
+              "USA Everyday Solutions",
+              "HKG Living Artist"
+           ],
+           "ecosystems":[
+              "segment-traitSkinCareBudgetIdValue",
+              "lytics-trait_skin_care_budget_id_value",
+              "dataLake-traitSkinCareBudgetIdValue",
+              "mapp-traitSkinCareBudgetIdValue",
+              "bigQuery-trait_Skin_Care_Budget_Id_Value",
+              "janrain-traitSkinCareBudget.traitValue",
+              "1CP-Budget - skin care",
+              "braze-traitskinCareBudgetIdValue",
+              "CPC-traitskinCareBudgetIdValue",
+              "CDP2.0-skinCareBudget",
+              "retentionScience-traitskinCareBudgetIdValue"
+           ]
+        },
+        {
+           "traitId":106,
+           "traitName":"brandSkinCare",
+           "description":"Use - brand skin care",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "GBR Olay",
+              "PHL Golden Household",
+              "USA Everyday Solutions"
+           ],
+           "ecosystems":[
+              "segment-traitBrandSkinCareIdValue",
+              "lytics-trait_brand_skin_care_id_value",
+              "dataLake-traitBrandSkinCareIdValue",
+              "mapp-traitBrandSkinCareIdValue",
+              "bigQuery-trait_Brand_Skin_Care_Id_Value",
+              "janrain-traitBrandSkinCare.traitValue",
+              "1CP-Use - brand skin care",
+              "braze-traitbrandSkinCareIdValue",
+              "CPC-traitbrandSkinCareIdValue",
+              "CDP2.0-brandSkinCare",
+              "retentionScience-traitbrandSkinCareIdValue"
+           ]
+        },
+        {
+           "traitId":112,
+           "traitName":"traitEductation",
+           "description":"What is the consumers education",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "TUR Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitEductationIdValue",
+              "lytics-trait_education_id_value",
+              "dataLake-traitEductationIdValue",
+              "mapp-traitEductationIdValue",
+              "bigQuery-trait_Eductation_Id_Value",
+              "janrain-traitEducation",
+              "1CP-Education",
+              "braze-traitEductationIdValue",
+              "CPC-traitEductationIdValue",
+              "CDP2.0-Eductation",
+              "retentionScience-traitEductationIdValue"
+           ]
+        },
+        {
+           "traitId":116,
+           "traitName":"FirstBaby",
+           "description":"traitFirstBabyIdValue",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "DEU Femibion",
+              "EGY Pampers"
+           ],
+           "ecosystems":[
+              "segment-traitFirstBabyIdValue",
+              "lytics-trait_First_Baby_id_value",
+              "dataLake-traitFirstBabyIdValue",
+              "mapp-traitFirstBabyIdValue",
+              "bigQuery-trait_first_baby_id_value",
+              "janrain-traitFirstBaby.traitValue",
+              "1CP-FirstBaby",
+              "braze-traitFirstBabyIdValue",
+              "CPC-traitFirstBabyIdValue",
+              "CDP2.0-FirstBaby",
+              "retentionScience-traitFirstBabyIdValue"
+           ]
+        },
+        {
+           "traitId":117,
+           "traitName":"Hospital",
+           "description":"traitHospitalIdValue",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "ARB Pampers"
+           ],
+           "ecosystems":[
+              "segment-traitBirthHospital",
+              "lytics-trait_Hospital_id_value",
+              "dataLake-traitHospitalIdValue",
+              "mapp-traitHospitalIdValue",
+              "bigQuery-trait_hospital_id_value",
+              "janrain-traitHospital.traitValue",
+              "1CP-Hospital",
+              "braze-traitHospitalIdValue",
+              "CPC-traitHospitalIdValue",
+              "CDP2.0-Hospital",
+              "retentionScience-traitHospitalIdValue"
+           ]
+        },
+        {
+           "traitId":118,
+           "traitName":"altFirstName",
+           "description":"alternate first name",
+           "personalData":true,
+           "dataType":"string",
+           "marketingPrograms":[
+              "KOR GroomingPGShop",
+              "JPN GroomingPGShop"
+           ],
+           "ecosystems":[
+              "segment-traitAltFirstName",
+              "lytics-trait_alt_first_name_id_value",
+              "dataLake-traitAltFirstNameIdValue",
+              "mapp-trtAltFirstNameVal",
+              "bigQuery-trait_alt_first_name_id_value",
+              "janrain-traitAltFirstName.traitValue",
+              "1CP-AltFirstName",
+              "braze-traitAltFirstNameIdValue",
+              "CPC-traitaltFirstNameIdValue",
+              "CDP2.0-altFirstName",
+              "retentionScience-traitaltFirstNameIdValue"
+           ]
+        },
+        {
+           "traitId":119,
+           "traitName":"altLastName",
+           "description":"alternate last name",
+           "personalData":true,
+           "dataType":"string",
+           "marketingPrograms":[
+              "KOR GroomingPGShop",
+              "JPN GroomingPGShop"
+           ],
+           "ecosystems":[
+              "segment-traitAltLastName",
+              "lytics-trait_alt_last_name_id_value",
+              "dataLake-traitAltLastNameIdValue",
+              "mapp-trtAltLastNameVal",
+              "bigQuery-trait_alt_last_name_id_value",
+              "janrain-traitAltLastName.traitValue",
+              "1CP-AltLastName",
+              "braze-traitAltLastNameIdValue",
+              "CPC-traitaltLastNameIdValue",
+              "CDP2.0-altLastName",
+              "retentionScience-traitaltLastNameIdValue"
+           ]
+        },
+        {
+           "traitId":121,
+           "traitName":"useBrandOralCareToothbrush",
+           "description":"Use - brand oral care toothbrush",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "LAT Rewards",
+              "ROU Corporate Program",
+              "PRT Golden Household",
+              "BRA Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitUseBrandOralCareToothbrushIdValue",
+              "lytics-trait_use_brand_oral_care_toothbrush_id_value",
+              "dataLake-traitUseBrandOralCareToothbrushIdValue",
+              "mapp-trtUseBrndOrlCrThbrsIdVal",
+              "bigQuery-trait_Use_Brand_Oral_Care_Toothbrush_Id_Value",
+              "janrain-traitUseBrandOralCareToothbrush.traitValue",
+              "1CP-Use - brand oral care toothbrush",
+              "braze-traituseBrandOralCareToothbrushIdValue",
+              "CPC-traituseBrandOralCareToothbrushIdValue",
+              "CDP2.0-useBrandOralCareToothbrush",
+              "retentionScience-traituseBrandOralCareToothbrushIdValue"
+           ]
+        },
+        {
+           "traitId":129,
+           "traitName":"numberChildren",
+           "description":"# Children",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "CZE Golden Household",
+              "DEU Femibion",
+              "USA Venus",
+              "UKR Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitNumberChildrenIdValue",
+              "segment-traitNumberChildrenLastUpdate",
+              "lytics-",
+              "lytics-",
+              "dataLake-traitNumberChildrenIdValue",
+              "dataLake-traitNumberChildrenLastUpdate",
+              "mapp-trtNmbrChildrenIdVal",
+              "mapp-traitNumberChildrenLastUpdate",
+              "bigQuery-trait_Number_Children_Id_Value",
+              "bigQuery-trait_Number_Children_Last_Update",
+              "janrain-traitNumberChildren.traitValue",
+              "janrain-traitNumberChildren.traitLastUpdate",
+              "1CP-# Children",
+              "1CP-# Children",
+              "braze-traitnumberChildrenIdValue",
+              "CPC-traitnumberChildrenIdValue",
+              "CDP2.0-numberChildren",
+              "retentionScience-traitnumberChildrenIdValue"
+           ]
+        },
+        {
+           "traitId":131,
+           "traitName":"incomeAnnualHousehold",
+           "description":"Income - Annual Household",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Venus",
+              "PAK Corporate Program",
+              "PHL Golden Household",
+              "THA Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitIncomeAnnualHouseholdIdValue",
+              "lytics-trait_income_annual_household_id_value",
+              "dataLake-traitIncomeAnnualHouseholdIdValue",
+              "mapp-traitIncomeAnnualHouseholdIdValue",
+              "bigQuery-trait_Income_Annual_Household_Id_Value",
+              "janrain-",
+              "1CP-Income - Annual Household",
+              "braze-traitincomeAnnualHouseholdIdValue",
+              "CPC-traitincomeAnnualHouseholdIdValue",
+              "CDP2.0-incomeAnnualHousehold",
+              "retentionScience-traitincomeAnnualHouseholdIdValue"
+           ]
+        },
+        {
+           "traitId":138,
+           "traitName":"householdConveniences",
+           "description":"Household conveniences",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Venus",
+              "GBR OralB",
+              "GBR Olay",
+              "PAK Corporate Program"
+           ],
+           "ecosystems":[
+              "segment-traitHouseholdConveniencesIdValue",
+              "lytics-",
+              "dataLake-traitHouseholdConveniencesValue",
+              "mapp-traitHouseholdConveniencesIdValue",
+              "bigQuery-trait_Household_Conveniences_Id_Value",
+              "janrain-",
+              "1CP-Household conveniences",
+              "braze-traithouseholdConveniencesIdValue",
+              "CPC-traithouseholdConveniencesIdValue",
+              "CDP2.0-householdConveniences",
+              "retentionScience-traithouseholdConveniencesIdValue"
+           ]
+        },
+        {
+           "traitId":146,
+           "traitName":"child1Birthdate",
+           "description":"Child birth date",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "CZE Golden Household",
+              "USA Venus",
+              "UKR Golden Household",
+              "DEU OralB"
+           ],
+           "ecosystems":[
+              "segment-traitEnrichChild1BirthdateIdValue",
+              "lytics-trait_enrich_child1_birthdate_value",
+              "dataLake-traitEnrichChild1BirthdateValue",
+              "mapp-trtEnrichChild1BrthVal",
+              "bigQuery-trait_Enrich_Child1Birthdate_Id_Value",
+              "janrain-",
+              "1CP-Child birth date",
+              "braze-traitchild1BirthdateIdValue",
+              "CPC-traitchild1BirthdateIdValue",
+              "CDP2.0-child1Birthdate",
+              "retentionScience-traitchild1BirthdateIdValue"
+           ]
+        },
+        {
+           "traitId":155,
+           "traitName":"consumerHobbies",
+           "description":"40-725 Career Advancement Courses",
+           "personalData":false,
+           "dataType":"string",
+           "marketingPrograms":[
+              "USA Venus",
+              "PAK Corporate Program",
+              "ITA Corporate Program",
+              "PHL Golden Household"
+           ],
+           "ecosystems":[
+              "segment-traitEnrichEpsilonConsumerHobbiesIdValue",
+              "lytics-trait_enrich_epsilon_consumer_hobbies_id_value",
+              "dataLake-traitEnrichEpsilonConsumerHobbiesIdValue",
+              "mapp-traitEnrichEpsilonConsumerHobbiesIdValue",
+              "bigQuery-trait_Enrich_Epsilon_Consumer_Hobbies_Id_Value",
+              "janrain-",
+              "1CP-Consumer hobbies",
+              "braze-traitconsumerHobbiesIdValue",
+              "CPC-traitconsumerHobbiesIdValue",
+              "CDP2.0-consumerHobbies",
+              "retentionScience-traitconsumerHobbiesIdValue"
+           ]
+        }
+     ],
+     "totalItems":4141,
+     "page":1,
+     "itemsPerPage":50
+  }
+}
