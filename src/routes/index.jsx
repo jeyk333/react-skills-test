@@ -24,7 +24,7 @@ function Routes({ isThemeLight, setIsThemeLight }) {
 
 Routes.propTypes = {
   setIsThemeLight: PropTypes.func.isRequired,
-  isThemeLight: PropTypes.bool.isRequired,
+  isThemeLight: PropTypes.string.isRequired,
 };
 
 export default Routes;

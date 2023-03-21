@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { Dialog, Tabs, Tab, DialogTitle, Typography } from "@material-ui/core";
 
@@ -7,20 +7,28 @@ import PropTypes from "prop-types";
 
 import useStyles from "./styles";
 
+import { getATrait } from "../../services";
+
+// NOTE: I am passing the basic data dynamically based on the selected row and the rest I am passing from the JSON
 function CustomModal({ handleClose, open, trait }) {
   const classes = useStyles();
   const [selectedTab, setSelectedTab] = useState("traits");
+  const [currentTrait, setCurrentTrait] = useState();
 
   const handleTabChange = (e, newValue) => {
     setSelectedTab(newValue);
   };
+
+  useEffect(() => {
+    getATrait().then((resp) => setCurrentTrait(resp?.data)); // Error cases not handled, as it's not required now
+  }, []);
 
   return (
     <Dialog
       onClose={() => handleClose(null)}
       aria-labelledby="simple-dialog-title"
       open={open}
-      fullWidth="md"
+      fullWidth
     >
       <DialogTitle id="simple-dialog-title">
         Trait ID - {trait?.traitId}
@@ -31,7 +39,7 @@ function CustomModal({ handleClose, open, trait }) {
           value={selectedTab}
           onChange={handleTabChange}
           aria-label="traits-tab"
-          indicatorColor="secondary"
+          indicatorcolor="secondary"
         >
           <Tab label="TRAIT DETAILS" value="traits" />
           <Tab label="MARKETING PROPGRAMS" value="programs" />
@@ -51,20 +59,44 @@ function CustomModal({ handleClose, open, trait }) {
               <Typography>{trait?.description}</Typography>
             </div>
             <div className={classes.detailList}>
+              <Typography>Personal Data</Typography>
+              <Typography>{trait?.personalData ? "True" : "False"}</Typography>
+            </div>
+            <div className={classes.detailList}>
               <Typography>Data Type</Typography>
               <Typography>{trait?.dataType}</Typography>
             </div>
             <div className={classes.detailList}>
-              <Typography>Personal Data</Typography>
-              <Typography>{trait?.personalData ? "True" : "False"}</Typography>
+              <Typography>Data Class</Typography>
+              <Typography>{currentTrait?.dataClass}</Typography>
+            </div>
+            <div className={classes.detailList}>
+              <Typography>Trait Type</Typography>
+              <Typography>{currentTrait?.traitType}</Typography>
+            </div>
+            <div className={classes.detailList}>
+              <Typography>Survivor Ship Level</Typography>
+              <Typography>{currentTrait?.survivorShipLevel}</Typography>
+            </div>
+            <div className={classes.detailList}>
+              <Typography>Multi Answer Response Indicator</Typography>
+              <Typography>
+                {currentTrait?.standardRegistrationAttributeIndicator}
+              </Typography>
+            </div>
+            <div className={classes.detailList}>
+              <Typography>Survivor Ship Rule</Typography>
+              <Typography>{currentTrait?.survivorShipRule}</Typography>
             </div>
           </div>
         )}
         {selectedTab === "programs" && (
           <div className={classes.programList}>
-            {trait?.marketingPrograms.map((program) => (
-              <div className={classes.programItem}>
-                <Typography variant="h6">{program}</Typography>
+            {currentTrait?.marketingPrograms.map((program) => (
+              <div className={classes.programItem} key={program?.description}>
+                <Typography variant="body1">{program?.description}</Typography>
+                <Typography variant="body2">ECOSYSTEMS</Typography>
+                <Typography>{program?.ecosystems}</Typography>
               </div>
             ))}
           </div>

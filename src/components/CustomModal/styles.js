@@ -29,6 +29,10 @@ const useStyles = makeStyles((theme) => ({
     top: 10,
     cursor: "pointer",
   },
+  programList: {
+    overflow: "auto",
+    height: 400,
+  },
 }));
 
 export default useStyles;

@@ -1,0 +1,268 @@
+{
+  "apiVersion":"2.17.0",
+  "data":{
+     "traitId":1,
+     "traitName":"childrenIdValue",
+     "description":"Children",
+     "personalData":false,
+     "dataType":"string",
+     "marketingPrograms":[
+        {
+           "description":"ARB Golden Household",
+           "ecosystems":"mapp,bigQuery,dataLake,braze,segment,janrain,1CP,lytics"
+        },
+        {
+           "description":"AUS Herbal Essence",
+           "ecosystems":"bigQuery,mapp,CPC,dataLake,braze,lytics"
+        },
+        {
+           "description":"AUS Metamucil",
+           "ecosystems":"dataLake"
+        },
+        {
+           "description":"AUS Olay",
+           "ecosystems":"1CP"
+        },
+        {
+           "description":"CAN Everyday Solutions",
+           "ecosystems":"segment,janrain,lytics"
+        },
+        {
+           "description":"CAN Wella",
+           "ecosystems":"mapp,segment,lytics"
+        },
+        {
+           "description":"CHN Whisper",
+           "ecosystems":"retentionScience,CPC,bigQuery,dataLake,braze"
+        },
+        {
+           "description":"DEU Golden Household",
+           "ecosystems":"lytics,mapp,bigQuery,janrain,dataLake,segment"
+        },
+        {
+           "description":"GBR Being Girl",
+           "ecosystems":"bigQuery,mapp,dataLake"
+        },
+        {
+           "description":"GRC Golden Household",
+           "ecosystems":"mapp,lytics,bigQuery,dataLake,segment,janrain"
+        },
+        {
+           "description":"IND Being Girl",
+           "ecosystems":"segment"
+        },
+        {
+           "description":"IND Corporate Program",
+           "ecosystems":"lytics,janrain,braze,dataLake,segment,bigQuery,1CP,mapp"
+        },
+        {
+           "description":"IND Golden Household",
+           "ecosystems":"braze,dataLake,janrain,mapp,CPC,lytics,segment,1CP,bigQuery"
+        },
+        {
+           "description":"JPN Golden Household",
+           "ecosystems":"braze,dataLake,1CP,mapp,CPC,segment,retentionScience,bigQuery,lytics,janrain"
+        },
+        {
+           "description":"JPN GroomingPGShop",
+           "ecosystems":"lytics"
+        },
+        {
+           "description":"JPN SK-II",
+           "ecosystems":"bigQuery,segment,lytics,mapp,dataLake"
+        },
+        {
+           "description":"KOR Olay",
+           "ecosystems":"CPC,segment,bigQuery,mapp,braze,1CP,dataLake,lytics"
+        },
+        {
+           "description":"KOR Whisper",
+           "ecosystems":"mapp,bigQuery,dataLake"
+        },
+        {
+           "description":"LAT Golden Household",
+           "ecosystems":"segment"
+        },
+        {
+           "description":"NZL Herbal Essence",
+           "ecosystems":"mapp"
+        },
+        {
+           "description":"NZL Metamucil",
+           "ecosystems":"mapp,janrain"
+        },
+        {
+           "description":"NZL Olay",
+           "ecosystems":"mapp,1CP"
+        },
+        {
+           "description":"PAK Corporate Program",
+           "ecosystems":"janrain"
+        },
+        {
+           "description":"PHL Golden Household",
+           "ecosystems":"janrain"
+        },
+        {
+           "description":"PHL Pampers",
+           "ecosystems":"mapp,segment,lytics,janrain"
+        },
+        {
+           "description":"ROU Corporate Program",
+           "ecosystems":"mapp,janrain,dataLake,segment,braze,bigQuery"
+        },
+        {
+           "description":"Test Trigger",
+           "ecosystems":"dataLake,mapp,bigQuery"
+        },
+        {
+           "description":"Test Trigger1123",
+           "ecosystems":"dataLake,lytics,mapp,bigQuery,segment"
+        },
+        {
+           "description":"USA Always Discreet",
+           "ecosystems":"segment,bigQuery"
+        },
+        {
+           "description":"USA Haircode",
+           "ecosystems":"lytics,segment"
+        },
+        {
+           "description":"USA Oral Care",
+           "ecosystems":"janrain,lytics,segment"
+        },
+        {
+           "description":"USA tester for mp",
+           "ecosystems":"lytics,segment"
+        },
+        {
+           "description":"USA Venus",
+           "ecosystems":"janrain"
+        }
+     ],
+     "ecosystems":[
+        {
+           "ecosystemName":"segment",
+           "ecosystemTraitName":"traitChildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"Custom Trait",
+           "ecosystemTraitMiscProperty":"",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"lytics",
+           "ecosystemTraitName":"traitChildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"",
+           "ecosystemTraitMiscProperty":"Trait Children",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"dataLake",
+           "ecosystemTraitName":"traitChildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"",
+           "ecosystemTraitMiscProperty":"",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"mapp",
+           "ecosystemTraitName":"traitChildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"",
+           "ecosystemTraitMiscProperty":"",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"bigQuery",
+           "ecosystemTraitName":"trait_Children_Id_Value",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"",
+           "ecosystemTraitMiscProperty":"",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"janrain",
+           "ecosystemTraitName":"",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"",
+           "ecosystemTraitMiscProperty":"",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"1CP",
+           "ecosystemTraitName":"Children",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"",
+           "ecosystemTraitMiscProperty":"",
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"braze",
+           "ecosystemTraitName":"traitchildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"Custom Trait",
+           "ecosystemTraitMiscProperty":null,
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"CPC",
+           "ecosystemTraitName":"traitchildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"Custom Trait",
+           "ecosystemTraitMiscProperty":null,
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"CDP2.0",
+           "ecosystemTraitName":"children",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"Custom Trait",
+           "ecosystemTraitMiscProperty":null,
+           "personalDataException":false
+        },
+        {
+           "ecosystemName":"retentionScience",
+           "ecosystemTraitName":"traitchildrenIdValue",
+           "dataType":"string",
+           "dataClass":"Persona Traits",
+           "ecosystemTraitType":"Custom Trait",
+           "ecosystemTraitMiscProperty":null,
+           "personalDataException":false
+        }
+     ],
+     "dataClass":"Persona Traits",
+     "traitType":"Custom Trait",
+     "property":{
+        "properties":{
+           "Number":false,
+           "SkipCount":false,
+           "LastUpdated":false,
+           "LastUpdatedClientId":false,
+           "LastUpdatedSourceId":false,
+           "SkipCountLastUpdated":false
+        }
+     },
+     "globalRequiredTraitIndicator":"",
+     "standardRegistrationAttributeIndicator":"",
+     "domain":null,
+     "dataSecurityClass":null,
+     "dataStandardizationLevel":null,
+     "exampleValues":null,
+     "formInput":null,
+     "dataChangeFrequency":null,
+     "survivorShipLevel":"marketing_program",
+     "multiAnswerResponseIndicator":false,
+     "survivorShipRule":"Most Recent"
+  }
+}

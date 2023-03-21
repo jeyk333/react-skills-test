@@ -27,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
     background: theme.palette.common.white,
     padding: theme.spacing(0, 1),
   },
+  filterGroup: {
+    padding: theme.spacing(0, 2),
+  },
 }));
 
 export default useStyles;

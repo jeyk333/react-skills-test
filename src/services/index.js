@@ -8,4 +8,14 @@ const getAllTraits = async () => {
   return data.json();
 };
 
-export default getAllTraits;
+const getATrait = async () => {
+  const data = await fetch("/trait.json", {
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+  });
+  return data.json();
+};
+
+export { getAllTraits, getATrait };

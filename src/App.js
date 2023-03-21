@@ -14,7 +14,6 @@ function App() {
     setThemeMode(value);
   }, [themeMode]);
 
-  // Currently, while updating theme, you may find some inconsitency, it is because, I didn't update all the section colors based on the theme, due to time. Reloading will solve the issue
   const theme = useMemo(
     () => (themeMode === "light" ? lightTheme : darktheme),
     [themeMode]
