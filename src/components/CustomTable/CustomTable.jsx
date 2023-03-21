@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import {
   Paper,
   Table,
@@ -19,6 +21,7 @@ import LastPageIcon from "@material-ui/icons/LastPage";
 import PropTypes from "prop-types";
 
 import { useStyles, useStylesPagination } from "./styles";
+import CustomModal from "../CustomModal";
 
 function TablePaginationActions(props) {
   const classes = useStylesPagination();
@@ -99,6 +102,7 @@ function CustomTable({
   handleChangePage,
   handleChangeRowsPerPage,
 }) {
+  const [showDataModal, setShowDataModal] = useState();
   const classes = useStyles();
 
   return (
@@ -133,7 +137,12 @@ function CustomTable({
                       inputProps={{ "aria-label": "checkbox" }}
                     />
                   </TableCell>
-                  <TableCell>{row.traitId}</TableCell>
+                  <TableCell
+                    className={classes.actionData}
+                    onClick={() => setShowDataModal(row)}
+                  >
+                    {row.traitId}
+                  </TableCell>
                   <TableCell>{row.traitName}</TableCell>
                   <TableCell>{row.description}</TableCell>
                   <TableCell>{row.dataType}</TableCell>
@@ -156,6 +165,11 @@ function CustomTable({
           toolbar: classes.toolbar,
           spacer: classes.spacer,
         }}
+      />
+      <CustomModal
+        open={!!showDataModal}
+        handleClose={setShowDataModal}
+        trait={showDataModal}
       />
     </Paper>
   );

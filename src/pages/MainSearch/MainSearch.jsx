@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import { CheckBox, CheckBoxOutlineBlank } from "@material-ui/icons";
 import Autocomplete from "@material-ui/lab/Autocomplete";
+import PropTypes from "prop-types";
 
 import useStyles from "./styles";
 import CustomTable from "../../components/CustomTable";
@@ -21,7 +22,7 @@ import getAllTraits from "../../services";
 const icon = <CheckBoxOutlineBlank fontSize="small" />;
 const checkedIcon = <CheckBox fontSize="small" />;
 
-function MainSearch() {
+function MainSearch({ isThemeLight, setIsThemeLight }) {
   const classes = useStyles();
   const [showSideMenu, setShowSideMenu] = useState(false);
   const [selectedTab, setSelectedTab] = useState("traits");
@@ -29,6 +30,7 @@ function MainSearch() {
   const [checked, setChecked] = useState(false);
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
     getAllTraits().then((resp) => setTriats(resp?.data?.items));
@@ -51,11 +53,17 @@ function MainSearch() {
     setChecked(e.target.checked);
   };
 
+  const filteredItems = searchText.length
+    ? traits.filter((trait) =>
+        trait.traitName.toLowerCase().includes(searchText.toLowerCase())
+      )
+    : traits;
+
   return (
     <div className={classes.root}>
       <SideMenu open={showSideMenu} setOpen={setShowSideMenu} />
       <main className={classes.contentWrapper}>
-        <Header />
+        <Header isThemeLight={isThemeLight} setIsThemeLight={setIsThemeLight} />
         <div className={classes.content}>
           <Typography variant="h4">Traits Management</Typography>
           <div className={classes.tabHeader}>
@@ -72,7 +80,6 @@ function MainSearch() {
                 {checked ? "REUSE" : "CREATE TRAIT"}
               </Button>
               <Autocomplete
-                multiple
                 id="checkboxes-tags-demo"
                 options={[
                   "Trait ID",
@@ -97,6 +104,8 @@ function MainSearch() {
                 renderInput={(params) => (
                   <TextField
                     {...params}
+                    onChange={(e) => setSearchText(e.target.value)}
+                    value={searchText}
                     label="Search"
                     color="secondary"
                     indicatorColor="secondary"
@@ -109,7 +118,7 @@ function MainSearch() {
             {selectedTab === "traits" && (
               <div>
                 <CustomTable
-                  traits={traits}
+                  traits={filteredItems}
                   checked={checked}
                   handleChecked={handleChecked}
                   page={page}
@@ -125,5 +134,10 @@ function MainSearch() {
     </div>
   );
 }
+
+MainSearch.propTypes = {
+  setIsThemeLight: PropTypes.func.isRequired,
+  isThemeLight: PropTypes.bool.isRequired,
+};
 
 export default MainSearch;

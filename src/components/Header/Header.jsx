@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import {
   AppBar,
   Toolbar,
@@ -10,16 +8,16 @@ import {
 } from "@material-ui/core";
 
 import clsx from "clsx";
+import PropTypes from "prop-types";
 
 import useStyles from "./styles";
 
-function Header() {
-  const [isThemeLight, setIsThemeLight] = useState(false);
+function Header({ isThemeLight, setIsThemeLight }) {
   const classes = useStyles();
 
   const toggleTheme = (e) => {
-    setIsThemeLight(e.target.checked);
-    localStorage.setItem("theme", isThemeLight ? "light" : "dark");
+    setIsThemeLight(e.target.checked ? "dark" : "light");
+    localStorage.setItem("theme", e.target.checked ? "dark" : "light");
   };
 
   return (
@@ -30,7 +28,12 @@ function Header() {
         </Typography>
         <div className={classes.rightContent}>
           <FormControlLabel
-            control={<Switch checked={isThemeLight} onChange={toggleTheme} />}
+            control={
+              <Switch
+                checked={isThemeLight !== "light"}
+                onChange={toggleTheme}
+              />
+            }
           />
           <Avatar className={classes.purple}>JK</Avatar>
           <Typography>Jeyanth Kanagaraju</Typography>
@@ -39,5 +42,10 @@ function Header() {
     </AppBar>
   );
 }
+
+Header.propTypes = {
+  setIsThemeLight: PropTypes.func.isRequired,
+  isThemeLight: PropTypes.bool.isRequired,
+};
 
 export default Header;

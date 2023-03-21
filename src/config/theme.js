@@ -3,7 +3,7 @@ import { createMuiTheme } from "@material-ui/core/styles";
 const lightTheme = createMuiTheme({
   palette: {
     type: "light",
-    primary: { main: "#f7f6f8", light: "#f6f9fc", dark: "#1d73f0" },
+    primary: { main: "#f7f6f8", light: "#f6f9fc" },
     secondary: { main: "#1d73f0" },
   },
 });
@@ -16,8 +16,4 @@ const darktheme = createMuiTheme({
   },
 });
 
-const getTheme = (mode = "light") => {
-  return mode === "light" ? lightTheme : darktheme;
-};
-
-export default getTheme;
+export { lightTheme, darktheme };

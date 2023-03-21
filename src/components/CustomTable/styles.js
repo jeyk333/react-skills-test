@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   },
+  actionData: {
+    color: theme.palette.secondary.main,
+    cursor: "pointer",
+  },
 }));
 
 const useStylesPagination = makeStyles((theme) => ({
