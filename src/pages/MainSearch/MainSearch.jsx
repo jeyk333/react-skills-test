@@ -12,6 +12,7 @@ import {
   Checkbox,
 } from "@material-ui/core";
 
+import { Close } from "@material-ui/icons";
 import PropTypes from "prop-types";
 
 import useStyles from "./styles";
@@ -20,6 +21,13 @@ import Header from "../../components/Header";
 import SideMenu from "../../components/SideMenu";
 
 import { getAllTraits } from "../../services";
+
+const DEFAULT_FILTERS = [
+  { label: "Trait ID", enabled: false },
+  { label: "Trait Name", enabled: false },
+  { label: "Trait Description", enabled: false },
+  { label: "Marketing Program", enabled: false },
+];
 
 function MainSearch({ isThemeLight, setIsThemeLight }) {
   const classes = useStyles();
@@ -38,12 +46,7 @@ function MainSearch({ isThemeLight, setIsThemeLight }) {
     { label: "Personal Data", show: true },
   ]);
 
-  const [searchFilters, setSearchFilters] = useState([
-    { label: "Trait ID", enabled: false },
-    { label: "Trait Name", enabled: false },
-    { label: "Trait Description", enabled: false },
-    { label: "Marketing Program", enabled: false },
-  ]);
+  const [searchFilters, setSearchFilters] = useState(DEFAULT_FILTERS);
   const [showFilters, setShowFilters] = useState(null);
 
   useEffect(() => {
@@ -82,6 +85,11 @@ function MainSearch({ isThemeLight, setIsThemeLight }) {
       return { ...filter, enabled: false };
     });
     setSearchFilters(filters);
+  };
+
+  const handleClearSearch = () => {
+    setSearchText("");
+    setSearchFilters(DEFAULT_FILTERS);
   };
 
   const filteredItems = searchText.length
@@ -124,6 +132,7 @@ function MainSearch({ isThemeLight, setIsThemeLight }) {
                   onClick={handleFocus}
                 />
               </div>
+              <Close onClick={handleClearSearch} />
             </div>
           </div>
           <div>
